@@ -10,7 +10,7 @@ const getStyles = (...args: string[]) => ["button", ...args].filter(Boolean)
 
 export default class ButtonComponent {
   @Input()
-  type = "primary";
+  type: "primary" | "secondary" | "tertiary" = "primary";
 
   @Input()
   label = '';
