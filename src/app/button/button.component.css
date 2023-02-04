@@ -1,7 +1,7 @@
 .button {
-	--accent-color: DodgerBlue;
+	--accent-color: white;
   background-color: var(--accent-color);
-  color: #fff;
+  color: #333;
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   padding: 8px 16px;
